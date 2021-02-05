@@ -7,7 +7,7 @@
 import app, {connectMongoDB} from "../app";
 import { createServer } from "http";
 import config from "../config";
-var debug = require("debug")("app-service:server");
+var debug = require("debug")("flowerit-plantswiki:server");
 /**
  * Get port from environment and store in Express.
  */
